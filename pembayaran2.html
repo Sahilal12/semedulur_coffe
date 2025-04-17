@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pembayaran QRIS - Semedulur Coffe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .qris-container {
+      max-width: 400px;
+      background: white;
+      padding: 20px;
+      margin: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .qris-container h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .qris-container img {
+      width: 250px;
+      height: auto;
+      margin: 20px 0;
+    }
+
+    .amount {
+      font-size: 20px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .instructions {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .btn-back {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 20px;
+      background: #7a583a;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .btn-back:hover {
+      background: #5e402c;
+    }
+  </style>
+</head>
+<body>
+  <div class="qris-container">
+    <h2>Pembayaran via QRIS</h2>
+    <p class="amount">Total yang harus dibayar Rp 24.000</p>
+    <img src="qris-semedulur-sample.png" alt="QRIS Code" />
+    <p class="instructions">Silahkan scan kode QR menggunakan aplikasi pembayaran seperti DANA, OVO, ShopeePay, Gopay, dll.</p>
+    <a class="btn-back" href="https://wa.me/085934937848">Konfirmasi Pembayaran</a>
+    <a class="btn-back" href="cart2.html">Kembali ke Keranjang</a>
+  </div>
+</body>
+</html>
